@@ -1,0 +1,46 @@
+.btn-primary{
+    width: 80%;
+    margin: 30rpx auto;
+    background: #EA5A49;
+    font-size: 14px;
+    color: #fff
+}
+.text-primary{
+    text-align: center;
+    font-size: 14px;
+    color:#EA5A49;
+}
+
+.text-hidden{
+    max-width: 280rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.text-footer{
+    padding: 10rpx;
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+.text-center{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.wx-switch-input{  
+    width:42px !important;
+    height:20px !important;
+}
+/*白色样式（false的样式）*/
+.wx-switch-input::before{  
+    width:41px !important;  
+    height: 20px !important;
+}/*绿色样式（true的样式）*/
+.wx-switch-input::after{ 
+     width: 18px !important;  
+     height: 18px !important;
+}
